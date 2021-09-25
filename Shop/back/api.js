@@ -1,3 +1,5 @@
+const host = 'http://localhost'
+const port = 3001
 $(document).ready(() => {
     $('#ejecutar').on('click', function(event) {
         event.preventDefault();
@@ -24,7 +26,8 @@ $(document).ready(() => {
 
     const indexpro = () => {
         $.ajax({
-            url: `https://api.mercadolibre.com/sites/MLM/search?q=Computación`,
+            url: `${host}:${port}/products`,
+
             type: 'GET',
             crossDomain: true,
             datatype: 'json',
@@ -59,7 +62,7 @@ $(document).ready(() => {
 
     const productos1 = () => {
         $.ajax({
-            url: `https://api.mercadolibre.com/sites/MLM/search?q=Computacion`,
+            url: `http://localhost:3001/products`,
             type: 'GET',
             crossDomain: true,
             datatype: 'json',
