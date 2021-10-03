@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A&J TechShop</title>
+  
+    <link rel="stylesheet" type="text/css" href="../styles/registro.css">
+    <link rel="shortcut icon" href="../res/imgs/favicon.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="register-form">
+        <h1>Formulario de Registro</h1>
+        <form action="/register" method="POST">
+            <label for="">Usuario</label>
+            <input type="text" name="usuario" required>
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" required>
+            <label for="">Primer Apellido</label>
+            <input type="text" name="primer_ap" required>
+            <label for="">Segundo Apellido</label>
+            <input type="text" name="segundo_ap" required>
+            <label for="">Password</label>
+            <input type="password" name="password" required>
+            <label for="">Correo</label>
+            <input type="email" name="correo" required>
+            <label for="">Numero de Celular</label>
+            <input type="text" name="num_cel" >
+
+            <div style="display : inline">
+                <a href="index.html"  class="btn-cancel">Cancelar</a><input type="submit" class="btn-save" value="Save">
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

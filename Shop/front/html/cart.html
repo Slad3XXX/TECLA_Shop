@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../res/imgs/favicon.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="../styles/cart.css">
+    <title>A&J TechShop</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="wrapper container">
+            <div class="logo">
+                <a href="">
+                    <img src="../res/imgs/A&J-logos_transparent.png" width="210px" height="288px" alt="">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <div class="top">
+                    <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li>
+                    <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showMega" />
+                    <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="./images/nav.png" alt="" />
+                            </div>
+                            <div class="row">
+                                <header>Shop Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Shop With Background</a></li>
+                                    <li><a href="#">Shop Mini Categories</a></li>
+                                    <li><a href="#">Shop Only Categories</a></li>
+                                    <li><a href="#">Shop Icon Categories</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Filter Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Sidebar</a></li>
+                                    <li><a href="#">Filter Default</a></li>
+                                    <li><a href="#">Filter Drawer</a></li>
+                                    <li><a href="#">Filter Dropdown</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Product Layout</header>
+                                <ul class="mega-links">
+                                    <li><a href="#">Layout Zoom</a></li>
+                                    <li><a href="#">Layout Sticky</a></li>
+                                    <li><a href="#">Layout Sticky 2</a></li>
+                                    <li><a href="#">Layout Scroll</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+                <li>
+                    <a href="register.html" class="desktop-item">Register <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showdrop2" />
+                    <label for="showdrop2" class="mobile-item">Register <span><i class="fas fa-chevron-down"></i></span></label>
+                    <ul class="drop-menu2">
+
+                        <li><a href="login.html">Login</a></li>
+
+                    </ul>
+                </li>
+                <!-- icons -->
+                <li class="icons">
+                    <a href="cart.html">
+                        <span>
+            <img src="../res/imgs/cart.png" alt="" />
+            <small class="count d-flex">0</small>
+          </span>
+                    </a>
+                    <span><img src="../images/res/search.png" alt="" />
+                        
+                    </span>
+                </li>
+            </ul>
+            <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+
+    <!-- Cart Items -->
+    <div class="container cart">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../res/imgs/product-1.jpg" alt="" />
+                        <div>
+                            <p>Bambi Print Mini Backpack</p>
+                            <span>Price: $500.00</span>
+                            <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../res/imgs/product-2.jpg" alt="" />
+                        <div>
+                            <p>Bambi Print Mini Backpack</p>
+                            <span>Price: $900.00</span>
+                            <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$90.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../res/imgs/product-3.jpg" alt="" />
+                        <div>
+                            <p>Bambi Print Mini Backpack</p>
+                            <span>Price: $700.00</span>
+                            <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../res/imgs/product-4.jpg" alt="" />
+                        <div>
+                            <p>Bambi Print Mini Backpack</p>
+                            <span>Price: $600.00</span>
+                            <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="../res/imgs/product-5.jpg" alt="" />
+                        <div>
+                            <p>Bambi Print Mini Backpack</p>
+                            <span>Price: $600.00</span>
+                            <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$60.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$250</td>
+                </tr>
+            </table>
+            <a href="#" class="checkout btn">Proceed To Checkout</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>Pagina creada por Juan Carlos Elias y Alejandro Delgadillo</h3>
+
+                </div>
+
+
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span> Mexico
+                    </div>
+                    <div>
+                        <span>
+              <i class="far fa-envelope"></i>
+            </span> lion-red64@hotmail.com - alexdelgadillo95@hotmail.com
+                    </div>
+
+                    <div class="payment-methods">
+                        <img src="../res/imgs/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
